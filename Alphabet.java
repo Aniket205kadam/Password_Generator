@@ -31,5 +31,4 @@ public class Alphabet {
         //convert the StringBuffer object into the String object
         return pool.toString();
     }
-
 }

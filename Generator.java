@@ -13,8 +13,6 @@ public class Generator {
     public Generator(Scanner scanner) {
         keyboard = scanner;
     }
-    //default constructor
-    public Generator() {}
 
     //four parameter receives by the constructor
     public Generator(boolean upperCaseInclude, boolean lowerCaseInclude, boolean numberInclude, boolean specialSymbolsInclude) {
@@ -54,7 +52,6 @@ public class Generator {
                     printMenu();
                 }
             }
-
         }
     }
 
